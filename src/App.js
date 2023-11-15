@@ -1,23 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Left from "./components/left"
+import Right from "./components/right"
+import Contact from "./components/contact"
+import { Flex, Spacer, Box, Center, useMediaQuery } from '@chakra-ui/react'
 function App() {
+  const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Box height="4em">
+        <Center><Contact /></Center>
+        </Box>
+
+<Flex>
+  <Box width="25%" p='4'>
+  <Left /> 
+  </Box>
+  
+  <Spacer />
+  
+  <Box width="75%" p='5'>
+  <Right />
+  </Box>
+ 
+</Flex>
+
     </div>
   );
 }

@@ -1,0 +1,27 @@
+@import url("../styles/fonts.css");
+@import url("../styles/fonts/icomoon/style.css");
+/* @import url("../styles/fonts/font-awesome/css/font-awesome.min.css"); */
+
+html{
+  height: 100%
+}
+body{
+  font-family: Inter, sans-serif;
+  font-feature-settings: "ss03","zero","cv08","cv11" 1;
+
+  height: 100%;
+ 
+} 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+/*background and algins text*/
+
+
+/* blue filter */
+#blue-filter{
+  background-color: rgba(200, 244, 255, 0.699);
+}
+/*gasp-three js*/

@@ -1,0 +1,48 @@
+/* contacts */
+
+#contact-button {
+    border-radius: 10px;
+    padding: 10px;
+    backdrop-filter: blur(7px);
+    display: flex;
+    background-color: rgba(141, 174, 196, 0.459);
+}
+
+/* about*/
+
+#about {
+    border-radius: 10px;
+    backdrop-filter: brightness(1.2);
+    backdrop-filter: blur(8px);
+    padding: 50px;
+    margin: 30px;
+    background-color: rgba(141, 174, 196, 0.459);
+}
+
+/*----skills and portfolio----*/
+
+#sk-portfolio {
+    backdrop-filter: blur(8px);
+    background-color: rgba(141, 174, 196, 0.459);
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    margin: 10px
+}
+
+#sk-portfolio section {
+    padding: 20px;
+
+}
+
+/*-------footer------- */
+
+#footer-box {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    padding: 5px;
+    top: 100px;
+    color: rgb(0, 58, 85);
+}
