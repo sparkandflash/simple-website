@@ -22,9 +22,9 @@ export default function Desktop() {
 <AboutMe />
 <Flex>
   <Box  width="20%" >
-  <svg className="textured-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  
   <Image height={childHeight} display="flex"  src='./lsz.svg'/>
-  </svg>
+
   </Box>
   
   <Spacer />
