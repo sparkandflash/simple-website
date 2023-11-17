@@ -8,7 +8,7 @@ p {
    
     font-size: 25px;
     padding-inline: 5px;
-    text-shadow: 0px 0px 2px rgba(0, 0, 0, .8);
+    
 }
 
 .social a {
@@ -16,5 +16,6 @@ p {
 }
 
 .social a:hover {
-    color: rgb(1, 204, 255);
+    color: rgb(67, 217, 255);
 }
+

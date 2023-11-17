@@ -22,15 +22,17 @@ export default function Desktop() {
 <AboutMe />
 <Flex>
   <Box  width="20%" >
+  <svg className="textured-logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
   <Image height={childHeight} display="flex"  src='./lsz.svg'/>
+  </svg>
   </Box>
   
   <Spacer />
   
-  <Box  id="child-component" width="80%" p='0.5em'>
+  <Box  id="child-component" width="75%" p='0.5em'>
   <Right/>
   </Box>
- 
+ <Box width="5%"></Box>
 </Flex>
 <Contact /> 
 

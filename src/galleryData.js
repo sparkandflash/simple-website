@@ -2,7 +2,7 @@ let galleryData = {
    'imagebaseurl': 'https://sparkandflash.github.io/',
    'name': 'LSZ',
    'role': 'developer/artist/writer',
-   'about': 'Hello, This is LSZ, I m 24 years old, I like to paint and code!',
+   'about': 'Hello, This is LSZ, I\'m 24 years old, I like to paint and code!',
    'socialLinks': [
       {
          'name': 'instagram',

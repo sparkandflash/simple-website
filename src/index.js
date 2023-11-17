@@ -4,6 +4,7 @@ import './styles/globals.css' //bg, bg-filter and alignment
 import './styles/text-details.css' //text formatting
 import './styles/layout.css' //margins and paddings of elements
 import './styles/mq450.css' //media query 450px for mobile phones
+import './styles/logoTexture.css'
 
 import App from './App';
 import reportWebVitals from './reportWebVitals';
