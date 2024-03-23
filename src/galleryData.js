@@ -19,12 +19,6 @@ let galleryData = {
          'url': 'https://github.com/sparkandflash',
          'className': 'icon-github'
       },
-
-      {
-         'name': 'deiviantart',
-         'url': 'https://www.deviantart.com/sparkandflash',
-         'className': 'icon-deviantart'
-      },
       {
          'name': 'discord',
          'url': 'https://discord.gg/QDYqpGZnhC',
