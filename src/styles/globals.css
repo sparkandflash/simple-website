@@ -1,7 +1,5 @@
-@import url("../styles/fonts.css");
-@import url("../styles/fonts/icomoon/style.css");
-/* @import url("../styles/fonts/font-awesome/css/font-awesome.min.css"); */
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;500&display=swap');
 html{
   height: 100%
 }
@@ -17,11 +15,51 @@ body{
 *::after {
   box-sizing: border-box;
 }
-/*background and algins text*/
 
-
-/* blue filter */
 #blue-filter{
   background-color: rgba(200, 244, 255, 0.699);
 }
-/*gasp-three js*/
+
+#contact-button {
+  border-radius: 10px;
+  padding: 10px;
+  backdrop-filter: blur(7px);
+  display: flex;
+  background-color: rgba(141, 174, 196, 0.459);
+}
+
+p {
+
+  color: #607a8b;
+  font-size: 18px;
+}
+
+.social {
+ 
+  font-size: 25px;
+  padding-inline: 5px;
+  
+}
+
+.social a {
+  color: rgb(0, 0, 0);
+}
+
+.social a:hover {
+  color: rgb(87, 221, 255);
+}
+
+@media only screen and (max-width: 450px) {
+    
+  #about {
+      width: 300px;
+    }
+  
+  #sk-portfolio  {
+    max-width: 400px;
+  }
+
+
+
+}
+

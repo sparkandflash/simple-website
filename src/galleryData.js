@@ -1,3 +1,4 @@
+import {  faGithub, faDiscord, faBluesky  } from '@fortawesome/free-brands-svg-icons';
 let galleryData = {
    'imagebaseurl': 'https://sparkandflash.github.io/',
    'name': 'LSZ',
@@ -5,19 +6,19 @@ let galleryData = {
    'about': 'Hello, This is LSZ, I\'m 25 years old, I like to paint and code!',
    'socialLinks': [
       {
-         'name': 'instagram',
-         'url': 'https://www.instagram.com/lsz.art/',
-         'className': 'icon-instagram'
+         'name': 'bluesky',
+         'url': 'https://bsky.app/profile/lsz.varnexo.in',
+         'className': faBluesky
       },
       {
          'name': 'github',
          'url': 'https://github.com/sparkandflash',
-         'className': 'icon-github'
+         'className': faGithub
       },
       {
          'name': 'discord',
          'url': 'https://discord.gg/QDYqpGZnhC',
-         'className': 'icon-discord'
+         'className': faDiscord,
       }
    ],
    'artworks': [
@@ -43,7 +44,7 @@ let galleryData = {
       {
          'name': 'World building Wiki project',
          'description': 'A simple wiki management system, A CRUD web app based on mongodb, react, springboot- work in progress',
-         'links': ''
+         'links': 'https://www.varnexo.in'
       }]
 }
 export default galleryData
