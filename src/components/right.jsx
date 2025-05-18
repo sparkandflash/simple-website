@@ -7,12 +7,12 @@ export default function Right() {
   return (
     <div>
 
-      <Box borderWidth='1px' borderRadius='lg'>
+      <Box  borderWidth='1px' borderRadius='lg'>
         <Tabs variant="unstyled" size='md' >
 
           <TabList>
             <Tab>Projects</Tab>
-            <Tab>Art gallery</Tab>
+           
           </TabList>
           <TabIndicator
             mt="-1.5px"
@@ -26,9 +26,7 @@ export default function Right() {
             <TabPanel>
               <Projects />
             </TabPanel>
-            <TabPanel >
-              <Gallery />
-            </TabPanel>
+         
           </TabPanels>
         </Tabs>
       </Box>

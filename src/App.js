@@ -4,6 +4,7 @@ import MobileWip from "./components/mobileWip";
 import Home from "./components/home"
 
 import {  useMediaQuery} from '@chakra-ui/react'
+import Gallery from "./components/gallery";
 function App() {
   const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
   if (window.location.host.split(".")[0] === "lsz") {
@@ -14,7 +15,9 @@ function App() {
     );
   }
   else if (window.location.host.split(".")[0] === "gallery") {
-  
+  return (
+    <div> <Gallery /></div>
+  )
   }
   else {
     return (

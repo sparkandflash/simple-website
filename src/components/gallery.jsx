@@ -3,9 +3,10 @@ import { Image, Grid, GridItem, Center, Box, VStack } from '@chakra-ui/react'
 export default function Gallery() {
     return (
         <div>
-            <Box h="600px" overflow="scroll">
+            <Box p="10px" >
                 <Center>
                     <VStack >
+                        <Box bgColor="gray" width="100%" h="30px" zIndex="1" postion="fixed">Varnexo Atryren Artworks</Box>
                         <Grid templateColumns='repeat(3, 1fr)' gap={5} >
                             {
                                 galleryData.artworks && galleryData.artworks.map(item => {
