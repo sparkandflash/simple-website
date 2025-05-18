@@ -10,10 +10,11 @@ function App() {
     return (
       <div>
   {isLargerThan900? <Desktop />: <MobileWip />}
-  
-  
       </div>
     );
+  }
+  else if (window.location.host.split(".")[0] === "gallery") {
+  
   }
   else {
     return (

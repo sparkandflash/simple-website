@@ -22,8 +22,14 @@ let galleryData = {
       }
    ],
    'artworks': [
-      { 'url': './artworks/1.jpg' }, { 'url': './artworks/2.jpeg' }, { 'url': './artworks/3.jpeg' },
+  { 'url': './artworks/2.jpeg' }, { 'url': './artworks/3.jpeg' },  { 'url': './artworks/22.jpeg' }, 
       { 'url': './artworks/4.jpeg' }, { 'url': './artworks/5.jpeg' }, { 'url': './artworks/6.jpeg' },
+      { 'url': './artworks/7.jpeg' }, { 'url': './artworks/8.jpeg' }, { 'url': './artworks/9.jpeg' },
+      { 'url': './artworks/10.jpeg' }, { 'url': './artworks/11.jpeg' }, { 'url': './artworks/12.jpeg' },
+   { 'url': './artworks/14.jpeg' },   { 'url': './artworks/20.jpeg' }, { 'url': './artworks/21.jpeg' },
+      { 'url': './artworks/16.jpeg' }, { 'url': './artworks/17.jpeg' }, { 'url': './artworks/18.jpeg' },
+  
+   
    ],
    'projects': [
       {

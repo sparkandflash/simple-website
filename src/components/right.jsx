@@ -26,7 +26,7 @@ export default function Right() {
             <TabPanel>
               <Projects />
             </TabPanel>
-            <TabPanel>
+            <TabPanel >
               <Gallery />
             </TabPanel>
           </TabPanels>
