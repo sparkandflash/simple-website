@@ -3,7 +3,7 @@ let galleryData = {
    'imagebaseurl': 'https://sparkandflash.github.io/',
    'name': 'LSZ',
    'role': 'developer/artist/writer',
-   'about': 'Hello, This is LSZ, I\'m 25 years old, I like to paint and code!',
+   'about': 'Hello, This is LSZ, I\'m 25 years old, I like to paint, world build and code!',
    'socialLinks': [
       {
          'name': 'bluesky',
@@ -17,6 +17,7 @@ let galleryData = {
       },
       {
          'name': 'discord',
+
          'url': 'https://discord.gg/QDYqpGZnhC',
          'className': faDiscord,
       }
@@ -33,24 +34,23 @@ let galleryData = {
    ],
    'projects': [
       {
-         'name': 'Ewaste Nft marketplace',
-         'description': 'An E-waste marketplace, based on NFTs and IPFS storage system,constructed with nextJS, reactJS, chakra UI, solidity contract, etherJS, on Rinkeby and Goerli test networks. I built most of the backend components consulting web3, ethers js documentations and using another marketplace as a reference. Front end components are all built from scratch using chakra UI and css. It is hosted on vercel, with a domain assigned to it. The project is live on goerli testnet and metamask wallet can be used to interact with it.',
-         'links': 'https://github.com/sparkandflash/template-nft-marketplace'
+         'name': 'world building: Varnexo Atyren',
+         'description': 'my lifelong world building project, with a Wip story, this site is dedicated to this project.',
+         'links': 'https://www.varnexo.in',
+         'linksName': 'varnexo.in'
       },
       {
-         'name': 'NFT Airdrop',
-         'description': 'NFT airdrop site made using nextJS and openseaJS. Works on polygon and etherurm contracts',
-         'links': 'https://github.com/sparkandflash/next-js-airdrop-site'
+         'name': 'Learning new things',
+         'description': 'It is a difficult process, but a rewarding one.',
+         'links': 'https://github.com/sparkandflash/',
+         'linksName': 'github'
       },
       {
-         'name': 'Discord chat bot using BrainShop API.',
-         'description': 'It was a fun project made purely for entertainment purposes, A Discord bot made with discordJS version 11-12 and BrainShop chatbot API that generated replies to discord user messages. it also includes standard discord bot commands.',
-         'links': 'https://github.com/sparkandflash/discord-chat-bot'
+         'name': 'Making pasta',
+         'description': 'I like making pasta, abit very custom and unique everytime haha.',
+         'links': 'https://www.webmd.com/food-recipes/ss/slideshow-eat-pasta',
+         'linksName': 'why pasta is good for you'
       },
-      {
-         'name': 'World building Wiki project',
-         'description': 'A simple wiki management system, A CRUD web app based on mongodb, react, springboot- work in progress',
-         'links': 'https://www.varnexo.in'
-      }]
+]
 }
 export default galleryData

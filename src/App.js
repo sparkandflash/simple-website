@@ -1,32 +1,28 @@
+import React from "react";
+import Home from "./components/home";
+import Gallery from "./components/gallery/gallery";
+import Gallerymb from "./components/gallery/gallerymb";
+import Aboutme from "./components/about/aboutme";
+import { useMediaQuery } from '@chakra-ui/react';
 
-import Desktop from "./components/desktop";
-import MobileWip from "./components/mobileWip";
-import Home from "./components/home"
-
-import {  useMediaQuery} from '@chakra-ui/react'
-import Gallery from "./components/gallery";
 function App() {
-  const [isLargerThan900] = useMediaQuery('(min-width: 900px)')
-  if (window.location.host.split(".")[0] === "lsz") {
-    return (
-      <div>
-  {isLargerThan900? <Desktop />: <MobileWip />}
-      </div>
-    );
-  }
-  else if (window.location.host.split(".")[0] === "gallery") {
-  return (
-    <div> <Gallery /></div>
-  )
-  }
-  else {
-    return (
-      <div>
-        <Home />
-      </div>
-    );
-  }
+  const [isLargerThan900] = useMediaQuery('(min-width: 900px)');
+  const subdomain = window.location.host.split(".")[0];
 
+  const renderSubdomainApp = () => {
+    switch (subdomain) {
+      case "lsz":
+        return <Aboutme />;
+
+      case "gallery":
+        return isLargerThan900 ? <Gallery /> : <Gallerymb />;
+
+      default:
+        return <Home />;
+    }
+  };
+
+  return <div>{renderSubdomainApp()}</div>;
 }
 
 export default App;
