@@ -6,7 +6,7 @@ export default function Home() {
     return (
         <Center h="100vh">
             <VStack h="100vh" width="100vw">
-                <Box h="60%" backgroundSize='fit'
+                <Box h="60%" backgroundSize='cover'
                     backgroundPosition='center'
                     display="flex"
                     alignItems="center"
