@@ -23,7 +23,7 @@ export default function Gallery() {
                 <Center>
                     <VStack >
                         <Header />
-                        <Contact />
+                      
                         <Grid templateColumns='repeat(3, 1fr)' gap={3} >
                             {
                                 galleryData.artworks && galleryData.artworks.map(item => {
