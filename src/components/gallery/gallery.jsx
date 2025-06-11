@@ -7,7 +7,6 @@ import {
 } from '@chakra-ui/react'
 import Header from './header'
 import { useState } from 'react';
-import React from 'react';
 import Contact from '../common/contact';
 export default function Gallery() {
     const { isOpen, onOpen, onClose } = useDisclosure();
@@ -19,11 +18,11 @@ export default function Gallery() {
     };
     return (
         <div>
+            <title>Varnexo Atyren - art gallery</title>
             <Box p="10px" >
                 <Center>
                     <VStack >
                         <Header />
-                      
                         <Grid templateColumns='repeat(3, 1fr)' gap={3} >
                             {
                                 galleryData.artworks && galleryData.artworks.map(item => {
@@ -108,7 +107,7 @@ export default function Gallery() {
                                                 objectFit="contain"
                                             />
                                             <Text mt={4} textAlign="center">
-                                                desc
+                                               {selectedImage.desc}
                                             </Text>
                                         </>
                                     )}

@@ -14,6 +14,7 @@ export default function Aboutme() {
     }, []);
     return (
         <div>
+             <title>LSZ</title>
             <Box p={5}>
                 <VStack width="100%">
 

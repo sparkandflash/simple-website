@@ -18,11 +18,11 @@ export default function Gallerymb() {
     };
     return (
         <div>
+            <title>Varnexo Atyren - art gallery</title>
             <Box p="10px" >
                 <Center>
                     <VStack >
                         <Header />
-                  
                         <Grid templateColumns='repeat(3, 1fr)' gap={3} >
                             {
                                 galleryData.artworks && galleryData.artworks.map(item => {
@@ -107,7 +107,7 @@ export default function Gallerymb() {
                                                 objectFit="contain"
                                             />
                                             <Text mt={4} textAlign="center">
-                                                desc
+                                                {selectedImage.desc}
                                             </Text>
                                         </>
                                     )}

@@ -23,12 +23,12 @@ let galleryData = {
       }
    ],
    'artworks': [
-  { 'url': './artworks/2.jpeg' }, { 'url': './artworks/3.jpeg' },  { 'url': './artworks/22.jpeg' }, 
-      { 'url': './artworks/4.jpeg' }, { 'url': './artworks/5.jpeg' }, { 'url': './artworks/6.jpeg' },
-      { 'url': './artworks/7.jpeg' }, { 'url': './artworks/8.jpeg' }, { 'url': './artworks/9.jpeg' },
-      { 'url': './artworks/10.jpeg' }, { 'url': './artworks/11.jpeg' }, { 'url': './artworks/12.jpeg' },
-   { 'url': './artworks/14.jpeg' },   { 'url': './artworks/20.jpeg' }, { 'url': './artworks/21.jpeg' },
-      { 'url': './artworks/16.jpeg' }, { 'url': './artworks/17.jpeg' }, { 'url': './artworks/18.jpeg' },
+  { 'url': './artworks/2.jpeg', 'desc':'Old concept art for leoda.' }, { 'url': './artworks/3.jpeg', 'desc':'old concept art for aliz' },  { 'url': './artworks/22.jpeg', 'desc':'concept art for mac' }, 
+  { 'url': './artworks/4.jpeg', 'desc':'Ayana Arnov' }, { 'url': './artworks/5.jpeg', 'desc':'Aliz Alveren' }, { 'url': './artworks/6.jpeg', 'desc':'hidden Dria-star temple' },
+  { 'url': './artworks/7.jpeg', 'desc':'3 generations (outdated concept)'}, { 'url': './artworks/8.jpeg', 'desc':'aliz when she was um, kept contained' }, { 'url': './artworks/9.jpeg', 'desc':'a' },
+  { 'url': './artworks/10.jpeg', 'desc':'h'}, { 'url': './artworks/11.jpeg', 'desc':'e' }, { 'url': './artworks/12.jpeg', 'desc':'b' },
+  { 'url': './artworks/14.jpeg', 'desc':'i' },   { 'url': './artworks/20.jpeg', 'desc':'f' }, { 'url': './artworks/21.jpeg', 'desc':'c' },
+  { 'url': './artworks/16.jpeg' , 'desc':'j'}, { 'url': './artworks/17.jpeg', 'desc':'g' }, { 'url': './artworks/18.jpeg', 'desc':'d' },
   
    
    ],
