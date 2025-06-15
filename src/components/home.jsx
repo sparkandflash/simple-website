@@ -18,7 +18,7 @@ export default function Home() {
                     {/* Background Artwork */}
                     <Box
                         position="absolute"
-                        top={0}
+                        top={10}
                         left={0}
                         width="100%"
                         height="100%"
@@ -55,12 +55,16 @@ export default function Home() {
                     <Box>
                         <Text color="gray.400">Characters</Text>
                     </Box>
+                     <Box>
+                        <Text color="gray.400">Symbols and flags</Text>
+                    </Box>
                     <Box>
                         <Link href="https://lsz.varnexo.in"> <Text>Creator - LSZ</Text></Link>
                     </Box>
                 </HStack>
                  <Divider borderColor="black" my="30px" width="80%" />
                 <Contact iconColor="white" />
+                <Text>the varnexo never ends</Text>
             </VStack>
         </Center>
     )
